@@ -7,7 +7,7 @@ function Header() {
   return (
     <Container>
         <p>
-            <img src="/images/tesla.svg"></img>
+            <img src="blob/master/public/images/tesla.svg"></img>
         </p>
         <Menu>
             <a href="#">Model S</a>
