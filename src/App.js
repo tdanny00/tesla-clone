@@ -1,10 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
 import './App.css';
 import Header from './app/components/Header';
 import Home from './app/components/Home';
 import Impact from './app/components/Impact';
+import Footer from './app/components/Footer';
 
 function App() {
   return (

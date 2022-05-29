@@ -86,12 +86,25 @@ const LeftButton = styled.div`
     background-color: rgba(23,26,32,0.8);
     cursor: pointer;
     margin: 10px;
+    { leftButton }:hover{
+        background-color:transparent;
+        border: 1px solid black;
+        transition: 400ms all ease;
+        color:black;
+    }
  `
 
 const RightButton = styled(LeftButton)`
       background-color:white;
       color: black;
       opacity: 0.65;
+        { rightButton }:hover{
+        background-color:black;
+        border: 1px solid white;
+        transition: 400ms all ease;
+        color:white;
+    }
+
  `
 const ArrowDown = styled.img`
     margin-top:20px;

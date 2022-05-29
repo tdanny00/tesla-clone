@@ -1,7 +1,7 @@
 {
   "name": "tesla-clone",
   "version": "0.1.0",
-  "homepage": "tdanny00.github.io",
+  "homepage": "https://nftrivald.com/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",

@@ -15,6 +15,7 @@ function Impacts() {
 export default Impacts
 
 const Report = styled.div`
+  z-index: 17;
   background-color:white;
   height: 50px;
   padding: 20px;

@@ -6,8 +6,8 @@ function Header() {
     const [sideMenuStatus, setSideMenuStatus] = useState(false);
   return (
     <Container>
-        <p>
-            <img src="blob/master/public/images/tesla.svg"></img>
+        <p >
+            <a href="#"><img src="/images/tesla.svg"></img></a>
         </p>
         <Menu>
             <a href="#">Model S</a>
@@ -51,8 +51,7 @@ const Container = styled.div`
     top: 0;
     left: 0;
     right:0;
-    z-index:1;
-
+    z-index:100;
 `
 
 const Menu = styled.div`
@@ -126,7 +125,8 @@ const SideMenu = styled.div`
     flex-direction: column;
     text-align:start;
     transform: ${props => props.show ? 'translateX(0)': 'translateX(100%)'};
-    
+    transition: 400ms all ease;
+
     li{
         padding: 15px 0;
         margin-left: 15px;

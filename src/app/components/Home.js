@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Footer from './Footer'
 import Section from './Section'
 
 function Home() {
@@ -52,6 +53,7 @@ function Home() {
             backgroundImg="accessories.jpg"
             leftBtn="Shop Now"
         />
+        <Footer/>
     </Container>
   )
 }
@@ -60,5 +62,6 @@ export default Home
 
 const Container = styled.div`
     height: 100vh;
+    z-index:1;
 
 `
